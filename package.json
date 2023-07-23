@@ -1,0 +1,25 @@
+{
+  "name": "ai-langchain",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "ingest": "tsx src/ingest.ts",
+    "qa": "tsx src/qa.ts",
+    "search": "tsx src/search.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "dotenv": "16.0.3",
+    "tsx": "3.12.6",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "hnswlib-node": "^2.0.0",
+    "langchain": "^0.0.105",
+    "openai": "3.2.1"
+  }
+}
