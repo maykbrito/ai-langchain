@@ -11,3 +11,9 @@ the `pnpm ingest` command will use a .txt file (src/transc.txt), split the text 
 Use your database as Q&A source
 
 the `pnpm qa` command will use your vector store database in the `data` directory, loaded with HNSWLib and OpenAI Embeddings, so we can ask anything in the context of database content
+
+## Search
+
+Use Google Search to improve the AI response
+
+the `pnpm search` command will use SerpAPI and OpenAI to make a internet search and give a better answer with AI
